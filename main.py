@@ -1,7 +1,9 @@
 import os
 import uvicorn
 
-from service.api import app
+from api.app import create_app
+
+app = create_app()
 
 
 if __name__ == "__main__":
