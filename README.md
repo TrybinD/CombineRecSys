@@ -179,15 +179,23 @@ to be updated...
 
 Модель, которыая рекомендует пользователей, которые хорошо дополняют стек технологий
 
+#### FriendOfFriendRecommendationsModel
+
+Модель рекомендации юзеров, с которыми успешно работали в команде ваши друзья
+
 ### user2team
 
 #### RandomUserRecommendationsModel
 
 Модель для случайной рекомендации со смешными объяснениями рекомендаций
 
-#### ContentBasedRecommendationsModel
+#### ContentСomplementaryUserRecommendationsModel
 
-Модель, которая подбирает подходящих в команду людей по стеку
+Модель, которыая рекомендует пользователей, которые хорошо дополняют стек технологий
+
+#### FriendOfFriendRecommendationsModel
+
+Модель рекомендации юзеров, с которыми успешно работали в команде ваши друзья
 
 ### team2user
 
@@ -195,9 +203,24 @@ to be updated...
 
 Модель для случайной рекомендации со смешными объяснениями рекомендаций
 
+#### HackBasedTeamRecommendationsModel
+
+Модель смотрит, какой хакатон вам было бы интересно постетить и подбирает подходящий
+
 ### hack2user
 
 #### RandomHackRecommendationsModel
 
 Модель для случайной рекомендации со смешными объяснениями рекомендаций
+
+#### UserBasedHackRecommendationsModel
+
+Модель рекомендует хакатоны, на которые зарегистрировались пл+охожие на вас юзеры
+
+
+## Ноутбуки и модели
+
+Ноутбуки лежат по адресу: https://disk.yandex.ru/d/Mx6o2tJcToXm4g
+
+Модели лежат по адресу: https://disk.yandex.ru/d/uUiyzEIDyDR9Ug
 
